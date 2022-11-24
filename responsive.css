@@ -1,0 +1,58 @@
+@media all and (max-width: 670px) {
+  .top-wrapper h1 {
+    font-size: 2rem;
+  }
+
+  .top-wrapper p {
+    font-size: 1.8rem;
+  }
+
+  .header-kiri {
+    font-size: 1rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .header-kanan {
+    font-size: 0.4rem;
+  }
+
+  .header-kanan a {
+    margin-left: 11px;
+    margin-right: 0;
+  }
+
+  .dot {
+    height: 5px;
+    width: 5px;
+    margin-left: 0;
+  }
+
+  .mid-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .bottom-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .bottom-image {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .image p {
+    padding: 10px;
+  }
+
+  input,
+  textarea {
+    width: 70%;
+  }
+
+  .footer-kiri {
+    letter-spacing: 5px;
+    font-size: 1rem;
+  }
+}
