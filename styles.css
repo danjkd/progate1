@@ -58,6 +58,33 @@ header {
 .top-wrapper img {
   max-width: 100%;
   width: 250px;
+  animation-name: zoom-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.6);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  75% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.top-wrapper img:hover {
+  /* filter: grayscale(0.25);
+  transform: scale(0.5) rotate(45deg); */
+  transition: all 1s ease;
 }
 
 .dot {
