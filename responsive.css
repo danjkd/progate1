@@ -4,21 +4,21 @@
   }
 
   .top-wrapper p {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
 
   .header-kiri {
-    font-size: 1rem;
-    letter-spacing: 0.4rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.18rem;
   }
 
   .header-kanan {
-    font-size: 0.4rem;
+    font-size: 0.68rem;
+    margin-left: 55px;
   }
 
   .header-kanan a {
-    margin-left: 11px;
-    margin-right: 0;
+    margin-left: 3px;
   }
 
   .dot {
@@ -27,8 +27,16 @@
     margin-left: 0;
   }
 
+  .mid-wrapper {
+    padding: 20px;
+  }
+
   .mid-wrapper h1 {
     font-size: 1.5rem;
+  }
+
+  .mid-wrapper p {
+    font-size: 0.8rem;
   }
 
   .bottom-wrapper h1 {
